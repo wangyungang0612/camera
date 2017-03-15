@@ -58,7 +58,8 @@ Callback, OnClickListener, AutoFocusCallback{
     String path = Environment.getExternalStorageDirectory()+"/"+exerciseId; //保存路径//-----
     
     SimpleDateFormat format1;
-    
+
+
     //创建jpeg图片回调数据对象      
     PictureCallback jpeg = new PictureCallback() {    
             
